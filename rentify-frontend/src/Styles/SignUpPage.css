@@ -1,0 +1,81 @@
+/* Font sizes for the project */
+:root {
+    --font-size-heading: 2rem;
+    --font-size-body: 1rem;
+    background-color: #2C3E50;
+    color: #ccc;
+}
+
+/* Sign-up page styles */
+.signUpPage {
+    font-family: Arial, sans-serif; /* Set a global font */
+    max-width: 400px;
+    margin: 10% auto; /* Center-align the form */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signUpPage h2 {
+    font-size: var(--font-size-heading);
+    margin-bottom: 20px;
+}
+
+.signUpPage form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align form items */
+}
+
+.signUpPage .input-group {
+    display: flex;
+    align-items: center; /* Center-align items inside the div */
+    margin-bottom: 10px;
+}
+
+.signUpPage label {
+    font-weight: bold;
+    font-size: var(--font-size-body);
+    width: 100px; /* Adjust width as needed */
+}
+
+.signUpPage input[type="text"],
+.signUpPage input[type="email"],
+.signUpPage input[type="tel"],
+.signUpPage input[type="password"] {
+    flex: 1; /* Take remaining space */
+    padding: 10px;
+    margin-left: 10px; /* Add some space between label and input */
+    border-radius: 5px;
+}
+
+.signUpPage input[type="radio"] {
+    margin-right: 5px; /* Add some space between radio buttons */
+}
+
+.signUpPage button {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: var(--font-size-body);
+    cursor: pointer;
+    background-color: #E74C3C; /* Accent Color */
+}
+
+.signUpPage button:hover {
+    background-color: #F39C12; /* Highlight Color */
+}
+
+.signUpPage p {
+    font-size: var(--font-size-body);
+}
+
+.signUpPage a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+    font-style: italic; /* Make text italic */
+    font-weight: bold; /* Add font weight */
+}

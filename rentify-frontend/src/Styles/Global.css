@@ -1,0 +1,33 @@
+/* Global font size variables */
+:root {
+    --font-size-logo: 2rem;
+    --font-size-navbar-link: 1.2rem;
+    --font-size-heading: 2.5rem;
+    --font-size-subheading: 2rem;
+    --font-size-body: 1rem;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #2C3E50;  */
+    font-family: Arial, sans-serif; /* Set a global font */
+}
+  
+  h1 {
+    font-size: var(--font-size-heading);
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+  h2 {
+    font-size: var(--font-size-subheading);
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+  p {
+    font-size: var(--font-size-body);
+    margin: 0.5rem 0;
+  }
+  

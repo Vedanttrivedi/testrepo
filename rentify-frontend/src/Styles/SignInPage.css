@@ -1,0 +1,73 @@
+/* Font sizes for the project */
+:root {
+    --font-size-heading: 2rem;
+    --font-size-body: 1rem;
+    background-color: #2C3E50;
+    color: #ccc;
+  }
+  
+  /* Sign-in page styles */
+  .signInPage {
+    font-family: Arial, sans-serif; /* Set a global font */
+    max-width: 400px;
+    margin: 10% auto; /* Center-align the form */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signInPage h2 {
+    font-size: var(--font-size-heading);
+    margin-bottom: 20px;
+  }
+  
+  .signInPage form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align form items */
+  }
+  
+  .signInPage .input-group {
+    display: flex;
+    align-items: center; /* Center-align items inside the div */
+  }
+  
+  .signInPage label {
+    font-weight: bold;
+    font-size: var(--font-size-body);
+    width: 80px; /* Adjust width as needed */
+  }
+  
+  .signInPage input {
+    flex: 1; /* Take remaining space */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  .signInPage button {
+    width: 40%;
+    padding: 10px;
+    margin: 20px 0 20px 15%; 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: var(--font-size-body);
+    cursor: pointer;
+    background-color: #E74C3C; /* Accent Color */
+  }
+  
+  .signInPage button:hover {
+    background-color: #F39C12; /* Highlight Color */
+  }
+  
+  .signInPage p {
+    font-size: 1.2rem;  }
+  .signInPage a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+    font-weight: bold;
+    font-style: italic;
+    
+  }
+  

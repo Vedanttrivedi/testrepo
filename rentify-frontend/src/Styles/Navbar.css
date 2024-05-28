@@ -1,0 +1,65 @@
+/* Font sizes for the project */
+:root {
+    --font-size-logo: 2rem;
+    --font-size-navbar-link: 1.2rem;
+    --font-size-heading: 2.5rem;
+    --font-size-subheading: 2rem;
+    --font-size-body: 1rem;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C3E50; 
+    padding: 1rem 2rem; /* Increased padding for better spacing */
+  }
+  
+  .navbar-logo {
+    font-size: var(--font-size-logo);
+    color: #ECF0F1; /* Background Color */
+    font-weight: bold; /* Make logo text bold */
+  }
+  
+  .navbar-links-center {
+    list-style: none;
+    display: flex;
+    gap: 5rem; /* Increased gap for better spacing */
+    margin: 0 auto; /* Center the links */
+  }
+  
+  .navbar-links-center li {
+    margin: 0;
+  }
+  
+  .navbar-links-center a {
+    color: #ECF0F1; /* Background Color */
+    text-decoration: none;
+    font-size: var(--font-size-navbar-link);
+    font-weight: bold; /* Make links bold */
+  }
+  
+  .navbar-links-center a:hover {
+    color: #18BC9C; /* Secondary Color */
+  }
+  
+  .navbar-signin {
+    font-size: var(--font-size-navbar-link);
+  }
+  
+  .navbar-signin a {
+    color: #ECF0F1; /* Background Color */
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .navbar-auth a{
+    color: #ECF0F1; /* Background Color */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar-signin a:hover {
+    color: #18BC9C; /* Secondary Color */
+  }
+  
